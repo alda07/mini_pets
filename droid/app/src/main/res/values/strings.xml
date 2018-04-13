@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ActionSheet</string>
+    <string name="title_activity_products">ProductsActivity</string>
+    <string name="str_tab_product">PRODUCT</string>
+    <string name="str_tab_combo">COMBO</string>
+    <string name="str_tab_address">ADDRESS</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

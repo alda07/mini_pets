@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/grid_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:columnWidth="150dp"
+        android:numColumns="2"
+        android:verticalSpacing="24dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="spacingWidthUniform">
+
+    </GridView>
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/btnFilter"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_gravity="bottom|end"
+      android:layout_marginBottom="70dp"
+      android:layout_marginRight="10dp"
+      android:src="@drawable/ic_product_filter"
+      android:backgroundTint="@color/colorAccent"/>
+
+</RelativeLayout>

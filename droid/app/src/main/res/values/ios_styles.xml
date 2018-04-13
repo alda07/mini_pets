@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="iossheet_cancel">HUY</string>
+    
+    <color name="ios_blue">#FF037BFF</color>
+    <color name="ios_red">#FFFD4A2E</color>
+    <color name="ios_grey">#FFC6C6C6</color>
+    <color name="ios_bg">#FFE9E9E9</color>
+    <color name="ios_btn_normal">#FFFFFF</color>
+    <color name="ios_btn_press">#FFCDCDCD</color>
+
+    <dimen name="ios_dialog_radius">10dp</dimen>
+    <dimen name="ios_sheet_dialog_radius">10dp</dimen>
+
+    <style name="ios_sheet_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="ios_sheet_anim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/iossheet_in</item>  
+        <item name="android:windowExitAnimation">@anim/iossheet_out</item>
+    </style>
+</resources>

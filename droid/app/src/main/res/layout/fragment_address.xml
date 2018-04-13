@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/machine_map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:id="@+id/machine_address"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:text="Hai Ba Trung Quan 1 HCM"/>
+
+        <GridView
+            android:id="@+id/machine_photos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:columnWidth="10dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="24dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="spacingWidthUniform">
+
+        </GridView>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
