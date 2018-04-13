@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BigInt.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Fibonacci.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FibonacciTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FibonacciUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D7F0521684FF2B2E04C6EE997E385DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A2C92139F75AF379383A31D30DF10FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B68359CD83299B42C40FD4E3838EFC90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD69FDB5F2513207E2016D46DD25E454</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

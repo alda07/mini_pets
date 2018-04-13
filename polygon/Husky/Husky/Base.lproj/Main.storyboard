@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewControlller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="ViewControlller" customClass="ViewController" customModule="Husky" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Ug-kg-5GV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqK-qp-IKR" userLabel="Options" customClass="Menu" customModule="Husky" customModuleProvider="target">
+                                <rect key="frame" x="270" y="270" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Uh5-1Y-kQg"/>
+                                    <constraint firstAttribute="width" constant="60" id="byM-HL-qAV"/>
+                                </constraints>
+                                <state key="normal" image="Menu"/>
+                                <state key="selected" image="close"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="buttonsCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="distance">
+                                        <real key="value" value="120"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="showDelay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="522-us-MPI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cp4-j4-fhq" userLabel="Photo">
+                                <rect key="frame" x="270" y="270" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="36g-5c-qsg"/>
+                                    <constraint firstAttribute="height" constant="60" id="Ic7-KV-Gui"/>
+                                </constraints>
+                                <state key="normal" image="photos"/>
+                                <connections>
+                                    <action selector="photo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBv-iY-eiV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Ug-kg-5GV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="5hA-Fp-QCo"/>
+                            <constraint firstItem="eqK-qp-IKR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EsB-c9-SwS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Ug-kg-5GV" secondAttribute="trailing" constant="-20" id="QvW-iy-wSw"/>
+                            <constraint firstItem="8Ug-kg-5GV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Vxf-xB-IUb"/>
+                            <constraint firstItem="cp4-j4-fhq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a3a-3q-TTe"/>
+                            <constraint firstItem="cp4-j4-fhq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="inq-9r-1gY"/>
+                            <constraint firstItem="eqK-qp-IKR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qTu-1r-Qfl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Ug-kg-5GV" secondAttribute="bottom" id="zup-rJ-siN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="8Ug-kg-5GV" id="Pr5-up-cas"/>
+                        <outlet property="optionsButton" destination="eqK-qp-IKR" id="JmR-NV-k2a"/>
+                        <outlet property="photoButton" destination="cp4-j4-fhq" id="26h-F0-bey"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397" y="321"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="120" height="120"/>
+        <image name="close" width="120" height="120"/>
+        <image name="photos" width="150" height="150"/>
+    </resources>
+</document>

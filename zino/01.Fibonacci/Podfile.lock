@@ -1,0 +1,21 @@
+PODS:
+  - BigInt (2.0.0)
+
+DEPENDENCIES:
+  - BigInt (from `https://github.com/lorentey/BigInt.git`)
+
+EXTERNAL SOURCES:
+  BigInt:
+    :git: https://github.com/lorentey/BigInt.git
+
+CHECKOUT OPTIONS:
+  BigInt:
+    :commit: e0bf036053c3f7d3adb3a1e11003b3eecfda6018
+    :git: https://github.com/lorentey/BigInt.git
+
+SPEC CHECKSUMS:
+  BigInt: 8c580323607fb94d5d5215b69c2609d800c412a0
+
+PODFILE CHECKSUM: 346562487218ee1aa09a97abf656c1923365f051
+
+COCOAPODS: 1.0.1

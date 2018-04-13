@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   APIKey.plist
+   Photo
+
+   Created by HanhVo on 8/2/16.
+   Copyright (c) 2016 HanhVo. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>api_secret</key>
+        <string>3a1b7751ccf9bec8</string>
+        <key>api_key</key>
+        <string>3f4bf639cf77046e1acda648b941652f</string>
+    </dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_ShoppingOnline {
+  umbrella header "Pods-ShoppingOnline-umbrella.h"
+
+  export *
+  module * { export * }
+}

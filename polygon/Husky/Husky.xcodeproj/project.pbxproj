@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD0626D1D081427001743A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD0626C1D081427001743A5 /* AppDelegate.swift */; };
+		FDD0626F1D081427001743A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD0626E1D081427001743A5 /* ViewController.swift */; };
+		FDD062721D081427001743A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD062701D081427001743A5 /* Main.storyboard */; };
+		FDD062771D081427001743A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD062751D081427001743A5 /* LaunchScreen.storyboard */; };
+		FDD0627F1D081435001743A5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD0627E1D081435001743A5 /* Extension.swift */; };
+		FDD062811D0815A2001743A5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD062801D0815A2001743A5 /* Menu.swift */; };
+		FDD062831D08163A001743A5 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD062821D08163A001743A5 /* MenuButton.swift */; };
+		FDD062851D0816A6001743A5 /* MenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD062841D0816A6001743A5 /* MenuLoader.swift */; };
+		FDD062871D081BD4001743A5 /* HuskyAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD062861D081BD4001743A5 /* HuskyAsset.xcassets */; };
+		FDD0628C1D086AA2001743A5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD0628B1D086AA2001743A5 /* Util.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDD062691D081427001743A5 /* Husky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Husky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD0626C1D081427001743A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDD0626E1D081427001743A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDD062711D081427001743A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD062761D081427001743A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD062781D081427001743A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD0627E1D081435001743A5 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FDD062801D0815A2001743A5 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FDD062821D08163A001743A5 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		FDD062841D0816A6001743A5 /* MenuLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLoader.swift; sourceTree = "<group>"; };
+		FDD062861D081BD4001743A5 /* HuskyAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HuskyAsset.xcassets; sourceTree = "<group>"; };
+		FDD0628B1D086AA2001743A5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD062661D081427001743A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD062601D081427001743A5 = {
+			isa = PBXGroup;
+			children = (
+				FDD0626B1D081427001743A5 /* Husky */,
+				FDD0626A1D081427001743A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD0626A1D081427001743A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD062691D081427001743A5 /* Husky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD0626B1D081427001743A5 /* Husky */ = {
+			isa = PBXGroup;
+			children = (
+				FDD0626C1D081427001743A5 /* AppDelegate.swift */,
+				FDD0626E1D081427001743A5 /* ViewController.swift */,
+				FDD0627E1D081435001743A5 /* Extension.swift */,
+				FDD0628B1D086AA2001743A5 /* Util.swift */,
+				FDD0628D1D086C2C001743A5 /* Menu */,
+				FDD062701D081427001743A5 /* Main.storyboard */,
+				FDD062751D081427001743A5 /* LaunchScreen.storyboard */,
+				FDD062861D081BD4001743A5 /* HuskyAsset.xcassets */,
+				FDD062781D081427001743A5 /* Info.plist */,
+			);
+			path = Husky;
+			sourceTree = "<group>";
+		};
+		FDD0628D1D086C2C001743A5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FDD062821D08163A001743A5 /* MenuButton.swift */,
+				FDD062801D0815A2001743A5 /* Menu.swift */,
+				FDD062841D0816A6001743A5 /* MenuLoader.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD062681D081427001743A5 /* Husky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD0627B1D081427001743A5 /* Build configuration list for PBXNativeTarget "Husky" */;
+			buildPhases = (
+				FDD062651D081427001743A5 /* Sources */,
+				FDD062661D081427001743A5 /* Frameworks */,
+				FDD062671D081427001743A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Husky;
+			productName = Husky;
+			productReference = FDD062691D081427001743A5 /* Husky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD062611D081427001743A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HanhVo;
+				TargetAttributes = {
+					FDD062681D081427001743A5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FDD062641D081427001743A5 /* Build configuration list for PBXProject "Husky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD062601D081427001743A5;
+			productRefGroup = FDD0626A1D081427001743A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD062681D081427001743A5 /* Husky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD062671D081427001743A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD062771D081427001743A5 /* LaunchScreen.storyboard in Resources */,
+				FDD062721D081427001743A5 /* Main.storyboard in Resources */,
+				FDD062871D081BD4001743A5 /* HuskyAsset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD062651D081427001743A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD0627F1D081435001743A5 /* Extension.swift in Sources */,
+				FDD062851D0816A6001743A5 /* MenuLoader.swift in Sources */,
+				FDD0626F1D081427001743A5 /* ViewController.swift in Sources */,
+				FDD062831D08163A001743A5 /* MenuButton.swift in Sources */,
+				FDD0628C1D086AA2001743A5 /* Util.swift in Sources */,
+				FDD062811D0815A2001743A5 /* Menu.swift in Sources */,
+				FDD0626D1D081427001743A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDD062701D081427001743A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD062711D081427001743A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD062751D081427001743A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD062761D081427001743A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD062791D081427001743A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD0627A1D081427001743A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD0627C1D081427001743A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Husky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ah.sg.Husky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDD0627D1D081427001743A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Husky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ah.sg.Husky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD062641D081427001743A5 /* Build configuration list for PBXProject "Husky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD062791D081427001743A5 /* Debug */,
+				FDD0627A1D081427001743A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD0627B1D081427001743A5 /* Build configuration list for PBXNativeTarget "Husky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD0627C1D081427001743A5 /* Debug */,
+				FDD0627D1D081427001743A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD062611D081427001743A5 /* Project object */;
+}
